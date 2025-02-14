@@ -2,6 +2,9 @@ name: Create and publich container image on tags
 
 on:
   push:
+    branches:
+      - main
+      - next
     tags:
       - v*
   workflow_dispatch:
